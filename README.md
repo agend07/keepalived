@@ -1,1 +1,1 @@
-keepalived on centos
+keepalived docker image on centos
