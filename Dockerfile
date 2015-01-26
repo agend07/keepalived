@@ -9,4 +9,4 @@ RUN rm keepalived-1.2.15.tar.gz
 RUN cd keepalived-1.2.15 && ./configure && make && make install
 
 ENTRYPOINT ["/usr/local/sbin/keepalived"]
-CMD ["--dont-fork --log-console"]
+CMD ["--dont-fork", "--log-console"]
